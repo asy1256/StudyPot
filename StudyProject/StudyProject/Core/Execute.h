@@ -3,7 +3,7 @@
 class Execute
 {
 public:
-	virtual void Update() = 0;
+	virtual bool Update() = 0;
 protected:
-	virtual void Run() = 0;
+	virtual bool Run() = 0;
 };

@@ -1,10 +1,6 @@
 #include "DayOfTheProgrammer.h"
 
-void DOTP::Update()
+bool DOTP::Run()
 {
-	Run();
-}
-
-void DOTP::Run()
-{
+	return false;
 }

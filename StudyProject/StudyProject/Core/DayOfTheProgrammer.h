@@ -1,10 +1,10 @@
 #pragma once
-#include "Execute.h"
+#include "Process.h"
 
-class DOTP : public Execute
+class DOTP : public Process
 {
 public:
-	void Update();
+	bool Update() override { return Run(); }
 protected:
-	void Run();
+	bool Run() override;
 };
