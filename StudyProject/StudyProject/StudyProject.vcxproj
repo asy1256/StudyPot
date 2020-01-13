@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Core\Category.cpp" />
     <ClCompile Include="Core\DayOfTheProgrammer.cpp" />
     <ClCompile Include="Core\Main.cpp" />
+    <ClCompile Include="Core\Platform.cpp" />
     <ClCompile Include="Core\Process.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Core\Category.h" />
     <ClInclude Include="Core\DayOfTheProgrammer.h" />
     <ClInclude Include="Core\Execute.h" />
+    <ClInclude Include="Core\Platform.h" />
     <ClInclude Include="Core\Process.h" />
     <ClInclude Include="Core\stdafx.h" />
   </ItemGroup>

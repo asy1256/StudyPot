@@ -26,6 +26,12 @@
     <ClCompile Include="Core\Process.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="Core\Category.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Platform.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\stdafx.h">
@@ -38,6 +44,12 @@
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="Core\Process.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Category.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Platform.h">
       <Filter>Core</Filter>
     </ClInclude>
   </ItemGroup>
